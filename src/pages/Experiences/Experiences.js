@@ -41,7 +41,7 @@ const Experiences = () => {
 					</VerticalTimelineElement>
 					<VerticalTimelineElement
 						className="vertical-timeline-element--education"
-						date="28th Feb - 29 Jul 2022"
+						date="28 Feb - 29 Jul 2022"
 						iconStyle={{
 							background: '#3e487a',
 							color: '#fff',

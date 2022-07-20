@@ -5,6 +5,7 @@ import qoutes from '../assets/qoutes.PNG';
 
 export const ProjectList = [
 	{
+		id: 0,
 		name: 'Stunting Website',
 		image: someting,
 		tools: 'React JS, Firebase, Redux, mockAPI. Axios, Tailwind. Postman',
@@ -12,6 +13,7 @@ export const ProjectList = [
 		repo: 'https://github.com/AtanMegis/CapstoneMegis',
 	},
 	{
+		id: 1,
 		name: 'Food Order Website',
 		image: food,
 		tools: 'React JS, Firebase',
@@ -19,6 +21,7 @@ export const ProjectList = [
 		repo: 'https://github.com/AtanMegis/foodOrder',
 	},
 	{
+		id: 2,
 		name: 'Meet Up Website ',
 		image: meets,
 		tools: 'React JS, Firebase',
@@ -26,6 +29,7 @@ export const ProjectList = [
 		repo: 'https://github.com/AtanMegis/course-react-udemy',
 	},
 	{
+		id: 3,
 		name: 'Quotes Website',
 		image: qoutes,
 		tools: 'React JS, Firebase',
