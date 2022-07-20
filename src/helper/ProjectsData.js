@@ -19,7 +19,7 @@ export const ProjectList = [
 		repo: 'https://github.com/AtanMegis/foodOrder',
 	},
 	{
-		name: 'MeetUps Website ',
+		name: 'Meet Up Website ',
 		image: meets,
 		tools: 'React JS, Firebase',
 		url: 'https://meetsup.vercel.app/',
@@ -28,7 +28,7 @@ export const ProjectList = [
 	{
 		name: 'Quotes Website',
 		image: qoutes,
-		tools: 'React JS',
+		tools: 'React JS, Firebase',
 		url: 'https://quotesmegis.vercel.app/',
 		repo: 'https://github.com/AtanMegis/UdemySection20RouterPractice',
 	},

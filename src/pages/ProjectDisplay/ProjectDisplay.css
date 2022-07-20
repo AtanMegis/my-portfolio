@@ -8,18 +8,20 @@
 }
 
 .project h1 {
-	margin-top: 100px;
+	margin-top: 150px;
 	color: #3e497a;
 	font-size: 35px;
 }
 .project img {
-	width: 700px;
+	width: 100vw;
+	max-width: 600px;
 	border-radius: 10px;
 }
 
 .project p {
 	font-size: 40px;
 	color: #3e497a;
+	text-align: center;
 }
 
 .project svg {
@@ -31,4 +33,20 @@
 	margin-top: 3rem;
 	display: flex;
 	gap: 4rem;
+}
+
+@media only screen and (max-width: 1200px) {
+	.project h1 {
+		margin-top: 300px;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.project h1 {
+		margin-top: 80px;
+	}
+	.project p {
+		font-size: 30px;
+		color: #3e497a;
+	}
 }
