@@ -1,12 +1,23 @@
 import React from 'react';
 import './Home.css';
+import ReactTyped from 'react-typed';
 
 const Home = () => {
 	return (
 		<>
 			<div className="home">
 				<div className="about">
-					<h2>Hi there, meets Christian Megis!</h2>
+					<h2>
+						Hi there,meet
+						<ReactTyped
+							className="typed"
+							strings={['Christian Megis !']}
+							typeSpeed={100}
+							backSpeed={80}
+							loop
+						/>
+					</h2>
+
 					<div className="prompt">
 						<p>
 							A fiery student who has passion with Software
@@ -22,6 +33,7 @@ const Home = () => {
 							<span>
 								Java, Javascript, React JS, Redux, NPM,
 								Firebase, UI library, HTML5, CSS3,
+								Tailwind CSS
 							</span>
 						</li>
 						<li className="item">

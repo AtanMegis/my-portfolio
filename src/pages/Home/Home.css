@@ -5,6 +5,9 @@
 	color: #3e497a;
 }
 
+.typed {
+	padding-left: 2rem;
+}
 .about {
 	width: 100%;
 	height: calc(100vh - 100px);

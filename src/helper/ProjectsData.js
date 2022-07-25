@@ -2,6 +2,8 @@ import food from '../assets/food.PNG';
 import meets from '../assets/meets.PNG';
 import someting from '../assets/someting.PNG';
 import qoutes from '../assets/qoutes.PNG';
+import netflix from '../assets/netflix.PNG';
+import react from '../assets/react.PNG';
 
 export const ProjectList = [
 	{
@@ -35,5 +37,21 @@ export const ProjectList = [
 		tools: 'React JS, Firebase',
 		url: 'https://quotesmegis.vercel.app/',
 		repo: 'https://github.com/AtanMegis/UdemySection20RouterPractice',
+	},
+	{
+		id: 4,
+		name: 'Resposive Netflix Clone',
+		image: netflix,
+		tools: 'React JS, Firebase, tailwind, slider UI component, axios, react-icons',
+		url: 'https://netflix-clone-atanmegis.vercel.app/',
+		repo: 'https://github.com/AtanMegis/netflix-clone',
+	},
+	{
+		id: 5,
+		name: 'Resposive React UI Website',
+		image: react,
+		tools: 'React JS, tailwind, react-typed, react-icons',
+		url: 'https://react-ui-web.vercel.app/',
+		repo: 'https://github.com/AtanMegis/react-web',
 	},
 ];
