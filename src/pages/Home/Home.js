@@ -8,16 +8,15 @@ const Home = () => {
 			<div className="home">
 				<div className="about">
 					<h2>
-						Hi there,meet
 						<ReactTyped
 							className="typed"
-							strings={['Christian Megis !']}
+							strings={['Hi there !']}
 							typeSpeed={100}
 							backSpeed={80}
 							loop
 						/>
 					</h2>
-
+					<h3>meet Christian Megis</h3>
 					<div className="prompt">
 						<p>
 							A fiery student who has passion with Software

@@ -4,6 +4,7 @@ import someting from '../assets/someting.PNG';
 import qoutes from '../assets/qoutes.PNG';
 import netflix from '../assets/netflix.PNG';
 import react from '../assets/react.PNG';
+import foodUI from '../assets/foodUI.PNG';
 
 export const ProjectList = [
 	{
@@ -53,5 +54,13 @@ export const ProjectList = [
 		tools: 'React JS, tailwind, react-typed, react-icons',
 		url: 'https://react-ui-web.vercel.app/',
 		repo: 'https://github.com/AtanMegis/react-web',
+	},
+	{
+		id: 6,
+		name: 'Resposive Food UI Website',
+		image: foodUI,
+		tools: 'React JS, tailwind, react-icons',
+		url: 'https://food-ui-react.vercel.app/',
+		repo: 'https://github.com/AtanMegis/food-ui',
 	},
 ];
