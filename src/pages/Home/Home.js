@@ -16,7 +16,7 @@ const Home = () => {
 							loop
 						/>
 					</h2>
-					<h3>meet Christian Megis</h3>
+					<h3>Meet Christian Megis</h3>
 					<div className="prompt">
 						<p>
 							A fiery student who has passion with Software
