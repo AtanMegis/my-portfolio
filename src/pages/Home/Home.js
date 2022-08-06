@@ -16,7 +16,7 @@ const Home = () => {
 							loop
 						/>
 					</h2>
-					<h3>Meet Christian Megis</h3>
+					<h3>Mgieet Christian Megis</h3>
 					<div className="prompt">
 						<p>
 							A fiery student who has passion with Software
@@ -32,7 +32,7 @@ const Home = () => {
 							<span>
 								Java, Javascript, React JS, Redux, NPM,
 								Firebase, UI library, HTML5, CSS3,
-								Tailwind CSS
+								Tailwind CSS, Material UI
 							</span>
 						</li>
 						<li className="item">

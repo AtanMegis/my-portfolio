@@ -5,6 +5,7 @@ import qoutes from '../assets/qoutes.PNG';
 import netflix from '../assets/netflix.PNG';
 import react from '../assets/react.PNG';
 import foodUI from '../assets/foodUI.PNG';
+import gallery from '../assets/gallery.PNG';
 
 export const ProjectList = [
 	{
@@ -62,5 +63,13 @@ export const ProjectList = [
 		tools: 'React JS, tailwind, react-icons',
 		url: 'https://food-ui-react.vercel.app/',
 		repo: 'https://github.com/AtanMegis/food-ui',
+	},
+	{
+		id: 7,
+		name: 'Gallery Website',
+		image: gallery,
+		tools: 'React JS, Material-UI, react-icons, Firebase, UUID v4',
+		url: 'https://gallerymegis.vercel.app/',
+		repo: 'https://github.com/AtanMegis/firebase-gallery',
 	},
 ];
