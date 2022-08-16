@@ -6,6 +6,7 @@ import netflix from '../assets/netflix.PNG';
 import react from '../assets/react.PNG';
 import foodUI from '../assets/foodUI.PNG';
 import gallery from '../assets/gallery.PNG';
+import travel from '../assets/travel.PNG';
 
 export const ProjectList = [
 	{
@@ -71,5 +72,13 @@ export const ProjectList = [
 		tools: 'React JS, Material-UI, react-icons, Firebase, UUID v4',
 		url: 'https://gallerymegis.vercel.app/',
 		repo: 'https://github.com/AtanMegis/firebase-gallery',
+	},
+	{
+		id: 8,
+		name: 'Travel Website',
+		image: travel,
+		tools: 'React JS, Material-UI, JWT, MongoDB, MapBox, Swiper, Firebase, UUID v4',
+		url: 'https://github.com/AtanMegis/complete-crud-react',
+		repo: 'https://megis-travel.netlify.app/',
 	},
 ];
